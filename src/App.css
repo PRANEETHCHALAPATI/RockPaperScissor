@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-container {
+  background-color: #223a56;
+  color: #fff;
+  min-height: 100vh;
+  padding: 24px;
+  text-align: center;
+}
+
+.main-heading {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.score-container {
+  background: #fff;
+  color: #223a56;
+  border-radius: 8px;
+  width: 120px;
+  margin: 0 auto 24px;
+  padding: 8px;
+}
+
+.score-title {
+  font-size: 14px;
+  margin: 0;
+}
+
+.score-value {
+  font-size: 28px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 40px;
+}
+
+.choice-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.choice-image {
+  width: 120px;
+}
+
+.result-view {
+  margin-top: 32px;
+}
+
+.result-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.result-image {
+  width: 100px;
+}
+
+.result-text {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.play-again {
+  margin-top: 16px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  color: #223a56;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.rules-button {
+  margin-top: 40px;
+  background: #fff;
+  color: #223a56;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.rules-modal-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rules-modal {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  position: relative;
+  color: #223a56;
+  max-width: 520px;
+  width: 90%;
+}
+
+.rules-image {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.close-btn {
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #223a56;
+  position: absolute;
+  right: 12px;
+  top: 8px;
+}
